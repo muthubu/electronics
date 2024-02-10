@@ -1,0 +1,139 @@
+/* rgb(243, 101, 85) */
+
+* {
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif !important;
+}
+
+a {
+    text-decoration: none;
+}
+
+ul,
+li {
+    list-style: none;
+}
+
+/* nav */
+
+nav {
+    position: fixed !important;
+    top: 0;
+    left: 0;
+    right: 0;
+}
+
+.nav-item a:hover {
+    color: white;
+    background-color: rgb(243, 101, 85);
+    width: fit-content;
+    padding: 10px 20px;
+}
+
+.nav-item a {
+    color: rgb(243, 101, 85);
+    width: fit-content;
+    padding: 10px 20px;
+    margin-right: 10px;
+}
+
+/* home */
+
+.home {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.466), rgba(0, 0, 0, 0.5)),url("/assets/images/llligth.jpg");
+    height: fit-content;
+    width: 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.name{
+    width: fit-content;
+    padding-bottom: 10px;
+    color: white;
+    font-size: 40px;
+    font-weight: bold;
+    border-bottom: 2px solid rgb(247, 84, 84);
+}
+
+.carousel {
+    margin-top: 50px;
+    height: fit-content;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.carousel-item {
+    padding: 100px;
+}
+
+.carouselImg {
+    height: 400px;
+}
+
+.content {
+    padding-top: 60px;
+}
+
+
+/* footer */
+footer {
+    color: white;
+    background-color: grey;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+    height: fit-content;
+    padding-top: 60px;
+    padding-bottom: 10px;
+    padding-left: 40px;
+    padding-right: 40px;
+    line-height: 80%;
+}
+
+small {
+    font-size: 13px !important;
+}
+
+.footcontact {
+    border-right: 1px solid black;
+}
+
+.footcontact p:hover {
+    color: rgb(243, 101, 85);
+}
+
+.social a {
+    text-decoration: none;
+    color: white;
+    line-height: 200%;
+}
+
+.social a:hover {
+    color: rgb(243, 101, 85);
+}
+
+.foot{
+    color: black;
+}
+
+/* media query */
+
+@media only screen and (max-width: 600px) {
+    .carouselImg {
+        height: 200px;
+    }
+
+    .carousel-item {
+        padding: 50px;
+    }
+
+    .content {
+        padding-top: 20px;
+    }
+    .nav-item a{
+        margin-bottom: 10px;
+    }
+}

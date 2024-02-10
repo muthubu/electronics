@@ -1,0 +1,22 @@
+.productHome{
+    margin-top: 30px;
+    height: fit-content;
+    width: 100%;
+    padding: 250px 200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.466),rgba(0, 0, 0, 0.5)),url("/assets/images/sw.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+}
+
+
+@media only screen and (max-width: 600px){
+    .productHome{
+        padding: 200px 60px;
+    }
+
+}

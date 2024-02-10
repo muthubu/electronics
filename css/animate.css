@@ -1,0 +1,37 @@
+.topani
+{
+    position:relative;
+    animation:animatetop 4s;
+    color: rgb(243, 101, 85);
+}
+@keyframes animatetop{
+    from {top:-100px;opacity:0}
+    to{top:0;opacity:1;}
+}
+
+.leftani{
+    position: relative;
+    animation: left 4s;
+}
+@keyframes left{
+    from {left:-100px;opacity:0}
+    to{left:0;opacity:1;}
+}
+.rightani{
+    position: relative;
+    animation: right 4s;
+    color: white;
+}
+@keyframes right{
+    from {right:-100px;opacity:0}
+    to{right:0;opacity:1;}
+}
+.downani{
+    position: relative;
+    animation: down 4s;
+}
+
+@keyframes down{
+    from {bottom:-100px;opacity:0}
+    to{bottom:0;opacity:1;}
+}

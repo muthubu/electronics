@@ -1,0 +1,84 @@
+.productSlide{
+    height: fit-content;
+    background-color: grey;
+    width: 100%;
+    padding: 20px;
+}
+.owl-carousel .card{
+    width: fit-content !important;
+    padding: 5px 50px;
+}
+.pImg{
+    height: 200px;
+    width: 200px !important;
+}
+.pSubt{
+    color: grey;
+}
+
+/* experience */
+
+.experience{
+    height: fit-content;
+    width: 100%;
+    background-image: linear-gradient(rgba(14, 13, 13, 0.253),rgba(7, 7, 7, 0.459)), url("/assets/images/exp.jpeg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    padding: 100px;
+    color: white;
+}
+
+.bar{
+    padding: 5px;
+    display: flex;
+    align-items: center;
+}
+.names{
+    padding-right: 8px;
+}
+.percentage{
+    height: 20px;
+    width: 200px;
+    background-color: lightgrey;
+    border: 1px solid grey;
+    border-radius: 10px;
+    text-align: center;
+}
+.loading{
+    height: 100%;
+    width: 10%;
+    background-color: black;
+    color : white;
+    text-align: center;
+    position: relative;
+    border-radius: 10px;
+    transition: all 2s;
+}
+.loading span{
+    font-size: 15px;
+    text-align: center;
+    margin-bottom: 1px;
+}
+.loading span::after{
+    content: attr(data-percent);
+    position : absolute;
+    top:2px;
+    right:4px;
+    font-size: 11px;
+    color : white;
+}
+
+
+/* works */
+.works{
+    padding: 40px;
+}
+
+/* media query */
+
+@media only screen and (max-width: 600px){
+    .experience{
+        padding: 50px;
+    }
+}

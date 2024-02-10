@@ -1,0 +1,57 @@
+/* contact */
+.contact{
+    margin-top: 30px;
+    height: fit-content;
+    width: 100%;
+    padding: 250px 200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.466),rgba(0, 0, 0, 0.5)),url("/assets/images/sw.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+}
+
+.address{
+    padding:70px 0px 50px;
+}
+
+.add{
+    border: none !important;
+    border-radius: 10px;
+    text-align: center;
+    padding: 20px;
+}
+
+.icon{
+    padding: 10px;
+    margin: 10px;
+    font-size: 40px;
+    background-color: rgb(243, 101, 85);
+    color: white;
+    border: 1px solid rgb(243, 101, 85);
+    border-radius: 50%;
+}
+.heading{
+  padding: 10px 0px;
+}
+.detail{
+    padding-bottom: 10px;
+}
+
+.add:hover .icon{
+    background-color: white;
+    color:rgb(243, 101, 85);
+}
+
+
+@media only screen and (max-width: 600px){
+    .address{
+        padding: 50px;
+    }
+    .contact{
+        padding: 200px 0px;
+    }
+}
