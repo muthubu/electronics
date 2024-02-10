@@ -11,8 +11,24 @@
     background-size: cover;
     background-position: center;
     background-attachment: fixed;
+    border-top: 1px solid black;
 }
 
+/* products */
+.owl-carousel{
+    padding: 0px 50px;
+}
+.owl-carousel .card{
+    width: fit-content !important;
+    padding: 5px 50px;
+}
+.pImg{
+    height: 200px;
+    width: 200px !important;
+}
+.pSubt{
+    color: grey;
+}
 
 @media only screen and (max-width: 600px){
     .productHome{

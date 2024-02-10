@@ -4,6 +4,9 @@
     width: 100%;
     padding: 20px;
 }
+.owl-carousel{
+    padding: 0px 50px;
+}
 .owl-carousel .card{
     width: fit-content !important;
     padding: 5px 50px;

@@ -119,6 +119,15 @@ small {
     color: black;
 }
 
+/* titles */
+.alltitles{
+    text-align: center;
+    color: white;
+    font-weight: bold;
+    font-size: 40px !important;
+    border-bottom: 2px solid rgb(247, 84, 84);
+}
+
 /* media query */
 
 @media only screen and (max-width: 600px) {
