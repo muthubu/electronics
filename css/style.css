@@ -125,7 +125,7 @@ small {
     color: #333;
     font-weight: bold;
     font-size: 40px !important;
-    border-bottom: 2px solid #333;
+    border-bottom: 2px solid #d22e2e;
 }
 
 .sectionheadg{
@@ -189,6 +189,10 @@ small {
 }
 .expimg{
     height: 200px;
+}
+
+.card-title{
+    color: #d22e2e !important;
 }
 
 /* media query */

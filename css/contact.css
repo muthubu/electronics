@@ -31,7 +31,7 @@
     margin: 10px;
     font-size: 40px;
     background-color: #d22e2e;
-    color: white;
+    color: #333;
     border: 1px solid #d22e2e;
     border-radius: 50%;
 }
@@ -43,8 +43,9 @@
 }
 
 .add:hover .icon{
-    background-color: white;
+    background-color: #333;
     color:#d22e2e;
+    border: 1px solid #333;
 }
 
 
