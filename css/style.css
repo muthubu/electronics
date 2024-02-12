@@ -120,12 +120,12 @@ small {
 }
 
 /* titles */
-.alltitles{
+.sectionhead{
     text-align: center;
-    color: white;
+    color: grey;
     font-weight: bold;
     font-size: 40px !important;
-    border-bottom: 2px solid rgb(247, 84, 84);
+    border-bottom: 2px solid grey;
 }
 
 /* media query */

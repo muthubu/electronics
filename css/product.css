@@ -22,13 +22,6 @@
     width: fit-content !important;
     padding: 5px 50px;
 }
-.pImg{
-    height: 200px;
-    width: 200px !important;
-}
-.pSubt{
-    color: grey;
-}
 
 @media only screen and (max-width: 600px){
     .productHome{
