@@ -2,7 +2,7 @@
 {
     position:relative;
     animation:animatetop 4s;
-    color: rgb(243, 101, 85);
+    color: #d22e2e;
 }
 @keyframes animatetop{
     from {top:-100px;opacity:0}
