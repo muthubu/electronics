@@ -76,7 +76,14 @@
 /* works */
 .works{
     padding: 40px;
+    text-align: center;
 }
+
+.icon{
+    height: 40px;
+    margin: 20px;
+}
+
 
 /* media query */
 
