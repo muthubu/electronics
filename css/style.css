@@ -4,6 +4,9 @@
     box-sizing: border-box;
     font-family: 'Poppins', sans-serif !important;
 }
+body{
+    background-color: rgb(241, 240, 240) !important;
+}
 
 a {
     text-decoration: none;

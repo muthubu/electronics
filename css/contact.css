@@ -23,7 +23,7 @@
     border: none !important;
     border-radius: 10px;
     text-align: center;
-    padding: 20px;
+    background-color: rgb(241, 240, 240) !important;
 }
 
 .icon{

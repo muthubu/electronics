@@ -29,6 +29,7 @@
 .works {
     padding: 40px;
     text-align: center;
+    background-color: rgb(241, 240, 240);
 }
 
 .icon {
@@ -45,7 +46,7 @@
     padding: 50px;
     display: flex;
     flex-wrap: wrap;
-    justify-content: space-between;
+    justify-content: space-around;
 }
 .box{
     border: 1px solid gray;
@@ -77,5 +78,9 @@
 @media only screen and (max-width: 600px) {
     .experience {
         padding: 50px;
+    }
+    .icon{
+        margin:10px;
+        height: 20px;
     }
 }

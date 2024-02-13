@@ -22,7 +22,7 @@
     border: none !important;
     border-radius: 10px;
     text-align: center;
-    padding: 20px;
+    background-color: rgb(241, 240, 240) !important;
 }
 
 .icon{
@@ -35,9 +35,6 @@
 }
 .heading{
   padding: 10px 0px;
-}
-.detail{
-    padding-bottom: 10px;
 }
 
 .add:hover .icon{
