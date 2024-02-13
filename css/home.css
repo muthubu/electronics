@@ -26,16 +26,56 @@
 }
 
 /* works */
-.works {
-    padding: 40px;
+.works{
+    padding: 50px 20px;
+}
+.add{
+    border: none !important;
+    border-radius: 10px;
     text-align: center;
-    background-color: rgb(241, 240, 240);
+    background-color: rgb(241, 240, 240) !important;
 }
 
-.icon {
+.icon{
+    padding: 10px;
+    margin: 10px;
+    font-size: 40px;
+    background-color: #d22e2e;
+    color: #333;
+    border-radius: 50%;
+}
+.heading{
+  padding: 10px 0px;
+}
+
+.add:hover .icon{
+    background-color: #333;
     color:#d22e2e;
-    height: 40px;
-    margin: 20px;
+}
+
+/* feature */
+.feature{
+    padding: 50px;
+    background-color: #333;
+}
+
+/* logo */
+.client{
+    height: fit-content;
+    width: 100%;
+    padding:50px;
+}
+.logo{
+    height: fit-content;
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: space-around;
+}
+.logoimg{
+    width: 100px;
+    height: 50px;
 }
 
 
@@ -44,9 +84,5 @@
 @media only screen and (max-width: 600px) {
     .experience {
         padding: 50px;
-    }
-    .icon{
-        margin:10px;
-        height: 30px;
     }
 }

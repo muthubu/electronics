@@ -14,38 +14,20 @@
     background-position: center;
     background-attachment: fixed;
 }
-
-.works{
-    padding: 50px 20px;
-}
-.add{
-    border: none !important;
-    border-radius: 10px;
+.works {
+    padding: 40px;
     text-align: center;
-    background-color: rgb(241, 240, 240) !important;
+    background-color: rgb(241, 240, 240);
 }
 
-.icon{
-    padding: 10px;
-    margin: 10px;
-    font-size: 40px;
-    background-color: #d22e2e;
-    color: #333;
-    border-radius: 50%;
-}
-.heading{
-  padding: 10px 0px;
-}
-
-.add:hover .icon{
-    background-color: #333;
+.icon {
     color:#d22e2e;
+    height: 40px;
+    margin: 20px;
 }
 
-/* feature */
-.feature{
-    background-color: #333;
-}
+
+/* media query */
 
 @media only screen and (max-width: 600px){
     .aboutHome{
@@ -56,5 +38,9 @@
     }
     .experience{
         padding: 50px;
+    }
+    .icon{
+        margin:10px;
+        height: 30px;
     }
 }
