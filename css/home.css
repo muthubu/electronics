@@ -38,40 +38,6 @@
     margin: 20px;
 }
 
-/* support */
-.support{
-    width: 100%;
-    background-color: #333;
-    color: #d22e2e;
-    padding: 50px;
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-around;
-}
-.box{
-    border: 1px solid gray;
-    position: relative;
-    padding: 20px;
-    width: 280px;
-    margin-top: 25px;
-}
-.tag{
-    position: absolute;
-    top : -25px;
-    right: 10px;
-    background-color: #333;
-    padding: 5px;
-    height: 50px;
-}
-.lehead{
-    color: white;
-    font-weight: bold;
-    margin-top: 0px;
-}
-.letext{
-    color: grey;
-}
-
 
 /* media query */
 
@@ -81,6 +47,6 @@
     }
     .icon{
         margin:10px;
-        height: 20px;
+        height: 30px;
     }
 }
