@@ -85,4 +85,11 @@
     .experience {
         padding: 50px;
     }
+    .client{
+        padding: 100px 20px;
+    }
+    .logoimg{
+        width: 50px;
+        height: 25px;
+    }
 }

@@ -35,3 +35,27 @@
     from {bottom:-100px;opacity:0}
     to{bottom:0;opacity:1;}
 }
+
+/* bottom animation */
+.op{
+    opacity: 0;
+}
+.bottomani{
+    position: relative;
+    animation: botom 2s;
+}
+
+@keyframes botom{
+    from {bottom:-150px;opacity:0}
+    to{bottom:0;opacity:1;}
+}
+
+/* let op = document.querySelectorAll(".op")
+
+window.addEventListener("scroll",()=>{
+    for(let i=0;i<op.length;i++){
+        if(op[i].getBoundingClientRect().top <= 500){ 
+            op[i].classList.replace("op","bottomani")
+        }
+    }
+}) */
