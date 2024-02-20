@@ -71,6 +71,10 @@
 .wpdt:hover{
     box-shadow: 5px 5px 5px grey;
 }
+.pdtimg{
+    padding: 20px 60px; 
+    background-color: white;
+}
 
 @media only screen and (max-width: 600px){
     .productHome{
@@ -79,5 +83,8 @@
 
     .brand{
         padding: 100px 20px;
+    }
+    .pdtimg{
+        padding: 20px 30px;
     }
 }
