@@ -40,6 +40,7 @@
 .logoimg{
     width: 100px;
     height: 50px;
+    margin-right: 70px;
 }
 
 .brand h1{
@@ -49,6 +50,28 @@
     margin-bottom: 40px;
 }
 
+/* productSlides */
+.productSlide{
+    padding: 50px 20px;
+}
+.pdt{
+    background-color: #333 !important;
+    color: white !important;
+}
+.pdt:hover{
+    box-shadow: 10px 10px 10px #333;
+}
+.wpdt{
+    background-color: white !important;
+    color: #333 !important;
+}
+.wpdt .card-body{
+    border-top: 2px solid grey;
+}
+.wpdt:hover{
+    box-shadow: 5px 5px 5px grey;
+}
+
 @media only screen and (max-width: 600px){
     .productHome{
         padding: 200px 60px;
@@ -56,9 +79,5 @@
 
     .brand{
         padding: 100px 20px;
-    }
-    .logoimg{
-        width: 50px;
-        height: 25px;
     }
 }

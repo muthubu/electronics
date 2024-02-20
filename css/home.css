@@ -25,6 +25,12 @@
     color: #d22e2e !important;
 }
 
+.pdt{
+    border: 2px solid #333 !important;
+    background-color: #333 !important;
+    color: #d22e2e !important;
+}
+
 /* works */
 .works{
     padding: 50px 20px;

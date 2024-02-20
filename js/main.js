@@ -6,7 +6,7 @@ let op = document.querySelectorAll(".op")
 
 window.addEventListener("scroll",()=>{
     for(let i=0;i<op.length;i++){
-        if(op[i].getBoundingClientRect().top <= 500){ 
+        if(op[i].getBoundingClientRect().top <= 600){ 
             op[i].classList.replace("op","bottomani")
         }
     }
