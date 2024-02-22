@@ -194,9 +194,6 @@ small {
     height: 200px;
 }
 
-.card-title{
-    
-}
 
 /* support */
 .support{
@@ -232,6 +229,10 @@ small {
     color: grey;
 }
 
+.pdtimg{
+    padding: 20px 60px; 
+    background-color: white;
+}
 
 /* media query */
 
@@ -249,5 +250,8 @@ small {
     }
     .nav-item a{
         margin-bottom: 10px;
+    }
+    .pdtimg{
+        padding: 20px 30px;
     }
 }

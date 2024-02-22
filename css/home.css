@@ -27,8 +27,8 @@
 
 .pdt{
     border: 2px solid #333 !important;
+    color: white !important;
     background-color: #333 !important;
-    color: #d22e2e !important;
 }
 
 /* works */
@@ -85,6 +85,10 @@
 }
 
 
+.carousel-item{
+    padding: 0 !important;
+}
+
 /* media query */
 
 @media only screen and (max-width: 600px) {
@@ -92,10 +96,13 @@
         padding: 50px;
     }
     .client{
-        padding: 100px 20px;
+        padding: 50px 20px;
     }
     .logoimg{
         width: 50px;
         height: 25px;
+    }
+    .carousel-item{
+        padding: 0 !important;
     }
 }
