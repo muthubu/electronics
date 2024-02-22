@@ -234,6 +234,10 @@ small {
     background-color: white;
 }
 
+.card{
+    border: none !important;
+}
+
 /* media query */
 
 @media only screen and (max-width: 600px) {
