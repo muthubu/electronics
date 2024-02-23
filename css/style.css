@@ -191,7 +191,7 @@ small {
     color : white;
 }
 .expimg{
-    height: 200px;
+    height: 250px;
 }
 
 
@@ -257,5 +257,8 @@ small {
     }
     .pdtimg{
         padding: 20px 30px;
+    }
+    .expimg{
+        height: 200px;
     }
 }

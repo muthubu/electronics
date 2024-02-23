@@ -52,11 +52,10 @@
 
 /* productSlides */
 .productSlide{
-    padding: 50px 20px;
+    padding: 30px 20px;
 }
 .pdt{
-    background-color: #333 !important;
-    color: white !important;
+    color: #333 !important;
 }
 .pdt:hover{
     box-shadow: 10px 10px 10px #333;

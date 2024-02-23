@@ -5,7 +5,6 @@
 }
 
 .switchban{
-    background-image: linear-gradient(rgba(0, 0, 0, 0.466),rgba(0, 0, 0, 0.5)),url("../assets/products/banner/switsh.webp");
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
