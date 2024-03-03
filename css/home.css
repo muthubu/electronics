@@ -44,8 +44,8 @@
     padding: 10px;
     margin: 10px;
     font-size: 40px;
-    background-color: #d22e2e;
-    color: #333;
+    background-color: #333;
+    color:#d22e2e;
     border-radius: 50%;
 }
 .heading{
@@ -53,8 +53,8 @@
 }
 
 .add:hover .icon{
-    background-color: #333;
-    color:#d22e2e;
+    background-color: #d22e2e;
+    color: #333;
 }
 
 /* feature */
