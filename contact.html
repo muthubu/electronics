@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Home</title>
+    <title>Contact Page</title>
     <link rel="stylesheet" href="./css/style.css">
     <link rel="stylesheet" href="./css/contact.css">
     <link rel="stylesheet" href="./css/animate.css">
@@ -93,22 +93,27 @@
         </div>
         <div class="container my-3 p-5">
             <div class="row justify-content-center">
-                <form action="#" class="col-md-6 op">
+                <form onsubmit="sendMail(); reset(); return false;" class="col-md-6 op">
                     <div class="form-floating mb-3 text-secondary">
-                        <input type="text" class="form-control bg-light border border-secondary-subtle d-inline-flex focus-ring focus-ring-dark text-decoration-none border rounded-2" id="floatingInputGroup1" placeholder="Name">
-                        <label for="floatingInputGroup1"> Name</label>
+                        <input type="text" class="form-control bg-light border border-secondary-subtle d-inline-flex focus-ring focus-ring-dark text-decoration-none border rounded-2" id="cName" placeholder="Name" required>
+                        <label for="cName"> Name</label>
                     </div>
-    
+
                     <div class="form-floating mb-3  text-secondary">
-                        <input type="email" class="form-control bg-light border border-secondary-subtle d-inline-flex focus-ring focus-ring-dark text-decoration-none border rounded-2" id="floatingInput" placeholder="name@example.com">
-                        <label for="floatingInput"> Your Mail Id</label>
+                      <input type="email" id="email" class="form-control bg-light border border-secondary-subtle d-inline-flex focus-ring focus-ring-dark text-decoration-none border rounded-2" placeholder="name@example.com" required>
+                      <label for="email"> Your Mail Id</label>
                     </div>
                     
                     <div class="form-floating mb-3  text-secondary">
-                        <textarea class="form-control bg-light border border-secondary-subtle d-inline-flex focus-ring focus-ring-dark text-decoration-none border rounded-2" placeholder="Leave a comment here" id="floatingTextarea2" style="height: 100px"></textarea>
-                        <label for="floatingTextarea2">Comments</label>
+                      <input type="text" class="form-control bg-light border border-secondary-subtle d-inline-flex focus-ring focus-ring-dark text-decoration-none border rounded-2" id="phone" placeholder="Phone no" required>
+                      <label for="phone"> Your Phone No</label>
                     </div>
-                    <button type="button" class="btn btn-dark float-end"> Submit</button>
+                    
+                    <div class="form-floating mb-3  text-secondary">
+                        <textarea class="form-control bg-light border border-secondary-subtle d-inline-flex focus-ring focus-ring-dark text-decoration-none border rounded-2" placeholder="Leave a comment here" id="comment" style="height: 100px" required></textarea>
+                        <label for="comment">Comments</label>
+                    </div>
+                    <button type="submit" class="btn btn-dark float-end"> Submit</button>
                 </form>
             </div>
         </div>
@@ -138,6 +143,22 @@
         </div>
       </footer>
 
+      <script src=" https://smtpjs.com/v3/smtp.js"></script>
+      <script>
+        function sendMail(){
+          Email.send({
+          Host : "smtp.elasticemail.com",
+          Username : "muthufear1@gmail.com",
+          Password : "7EA46FEC78B057557D2B8B60C348687C4804",
+          To : 'muthufear1@gmail.com',
+          From : 'muthufear1@gmail.com',
+          Subject : "Comment form Customer",
+          Body : "Name : "+document.getElementById("cName").value+"<br>phone no : "+document.getElementById("phone").value+"<br>mail : "+document.getElementById("email").value+"<br>comment : "+document.getElementById("comment").value
+        }).then(
+          message => alert(message)
+        );
+        }
+      </script>
       <script src="./js/main.js"></script>
 
 </body>
