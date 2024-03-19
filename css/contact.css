@@ -30,9 +30,9 @@
     padding: 10px;
     margin: 10px;
     font-size: 40px;
-    background-color: #d22e2e;
-    color: #333;
-    border: 1px solid #d22e2e;
+    background-color: #333;
+    color:#d22e2e;
+    border: 1px solid #333;
     border-radius: 50%;
 }
 .heading{
@@ -43,9 +43,9 @@
 }
 
 .add:hover .icon{
-    background-color: #333;
-    color:#d22e2e;
-    border: 1px solid #333;
+    background-color: #d22e2e;
+    color: #333;
+    border: 1px solid #d22e2e;
 }
 
 
